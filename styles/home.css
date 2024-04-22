@@ -34,6 +34,8 @@
 
 #about img {
   width: 50%;
+  object-fit: cover;
+  border-radius: 18px;
 }
 
 #about h2 {
@@ -45,4 +47,13 @@
   font-weight: 400;
   line-height: 150%;
   padding: 1rem 0;
+}
+
+#offers {
+  padding: 5%;
+}
+
+#offers h2 {
+  font-size: 2rem;
+  font-weight: bold;
 }
