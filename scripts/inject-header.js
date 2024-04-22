@@ -2,7 +2,7 @@ function injectHeader() {
   const header = `
     <header>
       <div>
-        <img src="/assets/logo.png" alt="" />
+        <img src="./assets/logo.png" alt="" />
         <h1>PurityWater</h1>
       </div>
       <ul>

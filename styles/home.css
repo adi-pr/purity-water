@@ -13,40 +13,45 @@
 }
 
 #intro h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 #intro span {
   width: 40%;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 150%;
   font-weight: 300;
 }
 
 #about {
   display: flex;
-  padding: 10% 5%;
-  justify-content: space-between;
-  gap: 2rem;
+  padding: 10%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #about img {
-  width: 50%;
+  width: 45%;
   object-fit: cover;
   border-radius: 18px;
 }
 
 #about h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
+}
+
+#about div {
+  width: 45%;
 }
 
 #about p {
   font-weight: 400;
   line-height: 150%;
   padding: 1rem 0;
+  font-size: 1.25rem;
 }
 
 #offers {
