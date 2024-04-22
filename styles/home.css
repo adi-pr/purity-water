@@ -55,10 +55,51 @@
 }
 
 #offers {
-  padding: 5%;
+  padding: 10%;
 }
 
 #offers h2 {
+  font-size: 2.75rem;
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+
+#offer-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+#offer-cards h2 {
+  padding: 2.5rem;
+}
+
+#offer-cards div {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  justify-content: space-around;
+  padding: 2.5% 3%;
+}
+
+#offer-cards h3 {
   font-size: 2rem;
   font-weight: bold;
+}
+
+#offer-cards p {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+#offer-cards div:first-child {
+  background-image: url("../assets/offer1.png");
+}
+
+#offer-cards div:last-child {
+  background-image: url("../assets/offer2.png");
 }
