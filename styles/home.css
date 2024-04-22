@@ -24,3 +24,25 @@
   line-height: 150%;
   font-weight: 300;
 }
+
+#about {
+  display: flex;
+  padding: 10% 5%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#about img {
+  width: 50%;
+}
+
+#about h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#about p {
+  font-weight: 400;
+  line-height: 115%;
+  padding: 1rem 0;
+}
