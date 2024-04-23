@@ -1,5 +1,5 @@
 function injectFooter() {
-    const footer = `
+  const footer = `
       <footer>
         <div>
           <p>
@@ -8,8 +8,8 @@ function injectFooter() {
         </div>
       </footer>
     `;
-    document.body.innerHTML = `${footer}
-     ${document.body.innerHTML}`;
-  }
+  document.body.innerHTML = `
+     ${document.body.innerHTML}${footer}`;
+}
 
-injectFooter(); 
+injectFooter();

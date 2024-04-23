@@ -7,24 +7,24 @@ class PopulateStore {
     {
       name: "100ml Bottled Water",
       price: "$100",
-      img: "",
+      img: "./assets/item2.png",
     },
     {
       name: "15L Bottled Water",
       price: "$360",
-      img: "",
+      img: "./assets/item2.png",
     },
     {
       name: "24 Pack Water Bottle",
       price: "$1060",
-      img: "",
+      img: "./assets/item2.png",
     },
   ];
   loopCatalog() {
     this.catalog.map((item) => {
       document.getElementsByTagName("main")[0].innerHTML += `
         <div>
-            <img src={${item.img}}/>
+            <img src=${item.img} />
             <div>
                 <span>${item.name}</span>
                 <span>${item.price}</span>

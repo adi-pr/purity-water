@@ -21,14 +21,28 @@
         gap: 3rem;
         height: 100%;
       }
-      main div {
+      main > div {
         width: 30%;
         background-color: white;
+        display: flex;
+        flex-direction: column;
+      }
+      main > div > div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+      main > img {
+        width: 100%;
+        object-fit: cover;
+        background-color: red;
       }
     </style>
 
     <main></main>
+
     <script src="./scripts/inject-header.js"></script>
-    <script src="./scripts/populate-store.js"></script>
+    <script type="module" src="./scripts/populate-store.js"></script>
   </body>
 </html>
