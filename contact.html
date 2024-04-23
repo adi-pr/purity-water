@@ -28,12 +28,54 @@
 
       form {
         display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 2%;
+        background-color: var(--secondary);
+        border-radius: 12px;
+        gap: 1rem;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        font-weight: bold;
+      }
+      input {
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+        border-radius: 8px;
+        border: none;
+      }
+      textarea {
+        border-radius: 8px;
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+        font-family: inherit;
+      }
+      button {
+        font-size: 1.25rem;
+        padding: 0.75rem 0;
+        background-color: #d67d3d;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
       }
     </style>
     <main>
       <form action="">
-        <input type="text" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <h2>Contact Us</h2>
+        <input type="email" required placeholder="Email" />
+        <textarea
+          placeholder="Message"
+          required
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
         <button>Send Message</button>
       </form>
     </main>
