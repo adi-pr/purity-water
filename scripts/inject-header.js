@@ -6,9 +6,9 @@ function injectHeader() {
         <h1>PurityWater</h1>
       </div>
       <ul>
-        <a href="">Home</a
-        ><a href="">Products</a
-        ><a href="">Contact</a>
+        <a href="/">Home</a
+        ><a href="/store">Products</a
+        ><a href="/contact">Contact</a>
       </ul>
     </header>
   `;

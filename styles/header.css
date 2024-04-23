@@ -31,7 +31,7 @@ header h1 {
 header ul {
   display: flex;
   align-items: center;
-  width: 25%;
+  width: 20%;
   justify-content: space-around;
 }
 

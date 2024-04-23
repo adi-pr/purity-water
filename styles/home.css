@@ -103,3 +103,13 @@
 #offer-cards div:last-child {
   background-image: url("../assets/offer2.png");
 }
+
+.testimonials__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial__item {
+  display: flex;
+  flex-direction: row;
+}
